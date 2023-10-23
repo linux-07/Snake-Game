@@ -1,7 +1,8 @@
-# Import necessary libraries
+# Disable the welcome msg in the console
 from os import environ
 environ['PYGAME_HIDE_SUPPORT_PROMPT'] = '1'
 
+# Import necessary modules
 import pygame
 import random
 import sys
